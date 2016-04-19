@@ -1,2 +1,3 @@
+language: cpp
 script:
     - ping RUNNDW009144A.symphonyteleca.com
