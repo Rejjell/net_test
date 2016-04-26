@@ -2,5 +2,6 @@ language: cpp
 
 before_script:
     - rvm install 2.0.0
+    - gem install travis-artifacts
 script:
     - echo 111
