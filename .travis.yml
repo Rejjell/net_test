@@ -1,3 +1,6 @@
 language: cpp
+
+before_script:
+    - rvm install 2.0.0
 script:
-    - ping RUNNDW009144A.symphonyteleca.com
+    - echo 111
