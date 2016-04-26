@@ -1,7 +1,7 @@
 language: cpp
 
 before_script:
-    - rvm install 2.0.0
-    - gem install travis-artifacts
+    -sudo apt-get install nuget
+    -nuget install protobuf-net -Version 2.0.0.668
 script:
     - echo 111
